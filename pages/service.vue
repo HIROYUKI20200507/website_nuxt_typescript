@@ -31,24 +31,24 @@ export default {
   transition: 'slide-bottom',
   data() {
     return {
-      activeButton: [true, false, false, false],
+      activeButton: [true, false, false, false, false],
       activeConts: {
-        title: ['Nuxt.js + Tailwind css + TypeScript'],
-        item: ['現在表示されているサイトです。バックの言語は使っておらず、フロントのNuxt.jsをメインにコーディングしています。'],
+        title: ['html + css + jQuery'],
+        item: ['isaraの模写です。基本的なHPの機能を実装しています。'],
         image: [require('@/assets/img/service-sub-img1.png')],
-        linkUrl: ['/']
+        linkUrl: ['https://isara-mosya.web.app/']
       },
       service: {
         title: [
-          'Nuxt.js + Tailwind css + TypeScript',
           'html + css + jQuery',
+          'Nuxt.js + Tailwind css + TypeScript',
           'Vue.js + Inertia.js + axios + Laravel Breeze',
           'React + Redux + ReduxSaga',
           'html + css + vanilla JS',
         ],
         item: [
-          '現在表示されているサイトです。バックの言語は使っておらず、フロントのNuxt.jsをメインにコーディングしています。',
           'isaraの模写です。基本的なHPの機能を実装しています。',
+          '現在表示されているサイトです。バックの言語は使っておらず、フロントのNuxt.jsをメインにコーディングしています。',
           'RSSをJSONで受け取り、Vue.jsで表示を行っております。リアルタイムでニュースとQiita記事の更新をすることが可能です。',
           'APIのOpen Weather Mapを使い、React+Reduxを使いStore管理を行っています。検索フォームに入力するとリアルタイムでAPIの処理が走ります。',
           '個人でコーチングをしている方の紹介サイトを作成しました。',
@@ -61,8 +61,8 @@ export default {
           require('@/assets/img/service-sub-img5.png'),
         ],
         linkUrl: [
-          '/',
           'https://isara-mosya.web.app/',
+          '/',
           'https://github.com/akimoto-willof/laravel_blog',
           'https://github.com/HIROYUKI20200507/react-test',
           'https://sakata-coach.com/',
@@ -71,9 +71,9 @@ export default {
     }
   },
   mounted() {
-    let count = 0
+    let count = 1
     setInterval(() => {
-      this.activeButton = [false, false, false, false]
+      this.activeButton = [false, false, false, false, false]
       this.activeButton[count++] = true
       if(count > 4)count = 0
     }, 5000);
