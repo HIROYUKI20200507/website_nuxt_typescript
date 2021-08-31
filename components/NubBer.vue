@@ -1,25 +1,33 @@
 <template>
-    <div class="flex justify-between items-center sticky top-0 z-50">
-        <div class="flex">
-            <div class="mix-blend-multiply"><img src="~assets/img/logo.png" alt="HPicon" class="w-20 h-20"></div>
-            <div class="text-3xl mt-3 relative font-top">Aスタジオ<br><span class="text-xs absolute top-9 left-1">poword by HIROYUKI</span></div>
-        </div>
-        <ul class="flex justify-between items-center gap-10">
-            <li><NuxtLink to="/">Profile</NuxtLink></li>
-            <li><NuxtLink to="/service">Service</NuxtLink></li>
-            <li><NuxtLink to="/price">Price</NuxtLink></li>
-            <li><a target="_blank" href="https://twitter.com/Akimon6134"><img class="w-7 h-7" src="~assets/img/icon/twitter.svg" alt="teitterアイコン"></a></li>
-            <li><a target="_blank" href="https://www.facebook.com/hiroyuki.akimoto.77"><img class="w-7 h-7" src="~assets/img/icon/facebook.svg" alt="facebookアイコン"></a></li>
-            <li>
-                <Button button='contact' class="nav-button-layout"></Button>
-            </li>
-        </ul>
-    </div>
+  <!-- component -->
+  <header class="bg-white dark:bg-gray-800">
+      <nav class="bg-white dark:bg-gray-800">
+          <div class="container p-6 mx-auto">
+            <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
+                <NuxtLink to="/" :class="{'border-blue-500': $route.name === 'index'}" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">home</NuxtLink>
 
+                <NuxtLink to="/service" :class="{'border-blue-500': $route.name === 'service'}" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">service</NuxtLink>
+
+                <NuxtLink to="/price" :class="{'border-blue-500': $route.name === 'price'}" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">price</NuxtLink>
+
+                <a href="https://form.run/@hiroyuki-akimoto-hp-1615021598" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">contact</a>
+
+            </div>
+          </div>
+      </nav>
+  </header>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      routeBorder : [true, false, false]
+    }
+  },
+  mounted() {
+    console.log(this.$route.name)
+  },
 
 }
 </script>

@@ -1,6 +1,28 @@
 <template>
     <div>
         <NubBer />
+        <div class="container flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
+          <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
+              <div class="flex justify-center order-2 mt-6 md:mt-0 md:space-y-3 md:flex-col">
+                  <button @change="isClickItem(0)" :class="{'bg-blue-500': activeButton[0]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                  <button @change="isClickItem(1)" :class="{'bg-blue-500': activeButton[1]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                  <button @change="isClickItem(2)" :class="{'bg-blue-500': activeButton[2]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                  <button @change="isClickItem(3)" :class="{'bg-blue-500': activeButton[3]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
+              </div>
+              <div class="max-w-lg md:mx-12 md:order-2">
+                  <h1 class="text-3xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl">{{ activeConts.title[0] }}</h1>
+                  <p class="mt-4 text-gray-600 dark:text-gray-300">{{ activeConts.title[0] }}</p>
+                  <div class="mt-6">
+                      <a href="#" class="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400">Look up</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="flex items-center justify-center w-full h-96 md:w-1/2">
+              <img class="object-cover w-full h-full max-w-2xl rounded-md" src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="apple watch photo">
+          </div>
+      </div>
+
         <div class="pb-52">
             <div class="flex items-center justify-center gap-20 mb-40 perf-top-layout">
                 <img src="~assets/img/Service-img.png" alt="" class="w-2/5 perf-img">
@@ -40,10 +62,43 @@
 
 <script>
 export default {
+  transition: 'slide-bottom',
+  data() {
+    return {
+      activeButton: [true, false, false, false],
+      activeConts: {
+        title: ['html + css'],
+        item: ['html + css'],
+      },
+      service: {
+        title: ['html + css','html + css + jQuery','Vue.js + axios','React + Redux + ReduxSaga'],
+        item: ['html+css','html+css+jQuery','Vue.js+axios','react+redux+redux saga'],
+      }
+    }
+  },
+  mounted() {
+    let count = 0
+    setInterval(() => {
+      this.activeButton = [false, false, false, false]
+      this.activeButton[count++] = true
+      if(count > 3)count = 0
+    }, 4000);
+  },
+  watch: {
+    activeButton(i) {
+      this.activeConts.title.splice(0, 1, this.service.title[this.activeButton.indexOf(true)])
+      this.activeConts.item.splice(0, 1, this.service.item[this.activeButton.indexOf(true)])
+    }
+  },
+  methods: {
+    isClickItem(i) {
+      this.activeButton = [false, false, false, false]
+      this.activeButton[i] = true
+
+      this.activeConts.title.splice(0, 1, this.service.title[i])
+      this.activeConts.item.splice(0, 1, this.service.item[i])
+    }
+  }
 
 }
 </script>
-
-<style>
-
-</style>
