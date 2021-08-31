@@ -14,12 +14,6 @@
 
                 <a target="_blank" href="https://form.run/@hiroyuki-akimoto-hp-1615021598" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">contact</a>
 
-                <a target="_blank" href="https://twitter.com/Akimon6134"><img class="mx-1.5 sm:mx-6 w-7 h-7" src="~assets/img/icon/twitter.svg" alt="teitterアイコン"></a>
-
-                <a target="_blank" href="https://www.facebook.com/hiroyuki.akimoto.77"><img class="mx-1.5 sm:mx-6 w-7 h-7" src="~assets/img/icon/facebook.svg" alt="facebookアイコン"></a>
-
-                <a target="_blank" href="https://github.com/HIROYUKI20200507"><img class="mx-1.5 sm:mx-6 w-7 h-7" src="~assets/img/icon/github-icon.svg" alt="githubアイコン"></a>
-
             </div>
           </div>
       </nav>

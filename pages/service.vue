@@ -23,6 +23,7 @@
           <img class="object-cover w-full h-full max-w-2xl rounded-md" :src="activeConts.image[0]" alt="image photo">
       </div>
     </div>
+        <Footer />
   </div>
 </template>
 

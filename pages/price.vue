@@ -8,14 +8,14 @@
                     <span class="text-blue-700 tracking-wide">Flexible </span>
                     <span>Plans</span>
                 </h1>
-                <p class="pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full">
+                <p class="mx-auto pt-6 text-sm md:text-xl text-gray-400 font-normal w-4/6 px-8 md:w-full">
                     その他料金プラン・受託開発も可能ですので相談下さい。
                 </p>
             </div>
-            <div class="pt-16 flex flex-row">
+            <div class="pt-16 md:flex flex-row">
                 <!-- Basic Card -->
-                <div class="w-96 p-6 bg-white text-center rounded-3xl pr-16 shadow-xl">
-                    <h1 class="text-black font-semibold text-2xl">Basic</h1>
+                <div class="mx-auto md:mx-0 w-80 md:w-96 p-6 bg-white text-center rounded-3xl pr-16 shadow-xl">
+                    <h1 class="text-black font-semibold text-2xl">ベーシック</h1>
                     <p class="pt-2 tracking-wide">
                         <span class="text-gray-400 align-top">¥ </span>
                         <span class="text-3xl font-semibold">39,800</span>
@@ -28,7 +28,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                Design <span class="text-black">composition</span>
+                                デザイン <span class="text-black">作成・提案</span>
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -36,7 +36,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                Coding <span class="text-black">html</span>
+                                使用言語 <span class="text-black">html + css</span>
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -44,7 +44,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                Coding <span class="text-black">css</span>
+                                ページ数 <span class="text-black">1〜2ページ</span>
                             </span>
                         </p>
 
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <!-- StartUp Card -->
-                <div class="w-80 p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white transform scale-125">
+                <div class="mt-10 mx-auto w-80 p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white transform md:scale-125">
                     <h1 class="text-white font-semibold text-2xl">Startup</h1>
                     <p class="pt-2 tracking-wide">
                         <span class="text-gray-400 align-top">¥ </span>
@@ -75,7 +75,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                Design <span class="text-white">composition</span>
+                                ベーシックプラン <span class="text-white">+ α</span>
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -83,7 +83,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                Coding <span class="text-white">JavaScript jQuery</span>
+                                使用言語 <span class="text-white">JavaScript jQuery</span>
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -91,7 +91,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                <span class="text-white">Animation</span> add website
+                                <span class="text-white">アニメーション</span> 追加可能
                             </span>
                         </p>
 
@@ -111,8 +111,8 @@
                     </div>
                 </div>
                 <!-- Enterprise Card -->
-                <div class="w-96 p-6 bg-white text-center rounded-3xl pl-16 shadow-xl">
-                    <h1 class="text-black font-semibold text-2xl">Enterprise</h1>
+                <div class="mx-auto mt-10 md:mt-0 w-80 md:w-96 p-6 bg-white text-center rounded-3xl md:pl-16 shadow-xl">
+                    <h1 class="text-black font-semibold text-2xl">フルパッケージ</h1>
                     <p class="pt-2 tracking-wide">
                         <span class="text-gray-400 align-top">¥ </span>
                         <span class="text-3xl font-semibold">79,800</span>
@@ -125,7 +125,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                All features in <span class="text-black">Startup</span>
+                                Startup <span class="text-black">+ α</span>
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -133,7 +133,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                <span class="text-black">Modern XD</span> design
+                                <span class="text-black">XD</span> でのデザイン
                             </span>
                         </p>
                         <p class="font-semibold text-gray-400 text-left pt-5">
@@ -141,7 +141,7 @@
                                 done
                             </span>
                             <span class="pl-2">
-                                <span class="text-black">Nuxt.js and Tailwind css</span>
+                                使用言語　<span class="text-black">Nuxt.js</span>
                             </span>
                         </p>
 
