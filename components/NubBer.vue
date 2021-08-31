@@ -28,14 +28,5 @@
 
 <script>
 export default {
-  data() {
-    return {
-      routeBorder : [true, false, false]
-    }
-  },
-  mounted() {
-    console.log(this.$route.name)
-  },
-
 }
 </script>

@@ -8,7 +8,7 @@
               <button @click="isClickItem(1)" :class="{'bg-blue-500': activeButton[1]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
               <button @click="isClickItem(2)" :class="{'bg-blue-500': activeButton[2]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
               <button @click="isClickItem(3)" :class="{'bg-blue-500': activeButton[3]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
-              <button @click="isClickItem(4)" :class="{'bg-blue-500': activeButton[3]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
+              <button @click="isClickItem(4)" :class="{'bg-blue-500': activeButton[4]}" class="w-3 h-3 mx-2 bg-gray-300 rounded-full md:mx-0 focus:outline-none hover:bg-blue-500"></button>
           </div>
           <div class="max-w-lg md:mx-12 md:order-2">
               <h1 class="text-3xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl">{{ activeConts.title[0] }}</h1>
