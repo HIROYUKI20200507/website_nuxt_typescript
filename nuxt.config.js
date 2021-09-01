@@ -8,11 +8,22 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: '元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
+      { hid: 'keywords', name: 'keywords', content: 'フロントエンド,エンジニア,八百屋' },
+
+      { hid: 'og:site_name', property: 'og:site_name', content: "HIROYUKI's Portfolio" },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/' },
+      { hid: 'og:title', property: 'og:title', content: "HIROYUKI's Portfolio" },
+      { hid: 'og:description', property: 'og:description', content: '元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
+      { hid: 'og:image', property: 'og:image', content: 'https://hiroyukihp.com/img/profile.jpg' },
+
+      { hid: 'fb:app_id', property: 'fb:app_id', content: '1009521386550829' },
+      // { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      // { hid: 'twitter:site', name: 'twitter:site', content: '@Twitter' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'},
@@ -49,5 +60,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  generate: {
+    dir: 'public'
   }
 }

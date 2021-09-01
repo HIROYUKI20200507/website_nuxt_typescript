@@ -6,6 +6,7 @@
           <div v-for="(article, index) in fetchArticles" class="bg-white mr-5 max-w-sm my-10" :key="article.guid">
             <img class="object-cover w-max max-h-52" :src="fetchImages[index]">
             <div class="p-5">
+              <small class="bg-white text-xs md:text-sm text-black truncate">{{ article.pubDate }}</small>
               <h1 class="text-sm md:text-2xl font-bold text-blue-800 py-2 truncate">{{ article.title }}</h1>
               <p class="bg-white text-xs md:text-sm text-black truncate">{{ article.description }}</p>
               <a :href="article.link" class="py-2 mt-4 px-6 text-white bg-blue-500 inline-block rounded">Read More</a>
@@ -36,11 +37,13 @@ export default {
     const self = this;
     axios.get(qiitaURL)
       .then(function(response){
+        console.log(response.data.items)
         self.fetchArticles = response.data.items;
       })
       .catch(function(error){
         console.log(error);
       })
+
     axios.get(`${picabayUrl}${pixabayKey}&q=${this.searchImage}`)
       .then(function(response){
         const hits = response.data.hits;
