@@ -8,15 +8,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
+      { hid: 'description', name: 'description', content: '秋本裕之のweb site｜元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
       { hid: 'keywords', name: 'keywords', content: 'フロントエンド,エンジニア,八百屋' },
 
       { hid: 'og:site_name', property: 'og:site_name', content: "HIROYUKI's Portfolio" },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/' },
       { hid: 'og:title', property: 'og:title', content: "HIROYUKI's Portfolio" },
-      { hid: 'og:description', property: 'og:description', content: '元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
-      { hid: 'og:image', property: 'og:image', content: 'https://hiroyukihp.com/img/profile.jpg' },
+      { hid: 'og:description', property: 'og:description', content: '秋本裕之のweb site｜元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。' },
+      { hid: 'og:image', property: 'og:image', content: 'https://hiroyukihp.com/profile.jpg' },
 
       { hid: 'fb:app_id', property: 'fb:app_id', content: '1009521386550829' },
       // { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
