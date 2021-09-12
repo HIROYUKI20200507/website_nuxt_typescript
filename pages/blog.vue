@@ -2,7 +2,7 @@
   <div>
     <NubBer />
     <div class="px-20 py-20 bg-gray-100">
-      <div class="items-start justify-between md:flex">
+      <div class="flex-wrap items-start justify-center md:flex">
         <div
           v-for="(article, index) in fetchArticles"
           class="flex-wrap max-w-sm my-10 mr-5 bg-white"
