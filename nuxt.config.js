@@ -14,11 +14,10 @@ export default {
         content:
           '秋本裕之のweb site｜元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。',
       },
-      { hid: 'keywords', name: 'keywords', content: 'フロントエンド,エンジニア,八百屋' },
 
-      { hid: 'og:site_name', property: 'og:site_name', content: "HIROYUKI's Portfolio" },
+      { hid: 'og:site_name', property: 'og:site_name', content: "Hiroyuki Akimoto[秋本 裕之] | Portfolio" },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/' },
+      { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com' },
       { hid: 'og:title', property: 'og:title', content: "HIROYUKI's Portfolio" },
       {
         hid: 'og:description',
