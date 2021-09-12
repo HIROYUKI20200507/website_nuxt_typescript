@@ -19,6 +19,7 @@
     "@nuxt/types": "^2.15.7",
     "@nuxt/typescript-build": "^2.1.0",
     "autoprefixer": "^10.3.3",
-    "postcss": "^8.3.6"
+    "postcss": "^8.3.6",
+    "prettier": "2.4.0"
   }
 }

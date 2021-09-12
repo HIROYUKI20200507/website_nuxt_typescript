@@ -1,27 +1,51 @@
 <template>
-    <div class="w-4/6 mx-auto md:w-full h-full">
-        <NubBer />
-          <!-- Section Hero  -->
-          <div class="container mx-auto mt-8 md:mt-0 md:space-x-10 md:grid grid-cols-3 justify-center md:py-40">
-            <div class="grid justify-center items-center order-1 col-span-1">
-              <img class="lg:h-80 md:h-64 h-40 rounded-full" src="~assets/img/profile.jpg" alt="profile-image" />
-            </div>
-            <div class="mx-auto mt-8 md:mt-0 lg:justify-end col-span-2">
-              <h1 class="text-2xl md:text-4xl text-gray-800 text-center md:text-left font-bold mb-6">HIROYUKI's Portfolio</h1>
-              <p class=" mb-8 text-lg md:text-xl text-gray-800 text-center md:text-left">フロントエンドエンジニアとしてシステム開発業務を行っています。<br>使用言語は、Tailwind CSS｜JavaScript｜Vue.js｜Vuex｜Nuxt.js｜Laravelです。<br>このサイトは、Tailwind CSS*Nuxt.js*Typescriptで作成しています。<br>HP制作も承っております。</p>
-              <a target="_blank" href="https://form.run/@hiroyuki-akimoto-hp-1615021598" class="mx-auto md:mx-0 text-2xl py-3 px-6 text-red-50 font-semibold rounded bg-red-400">contact me</a>
-            </div>
-          </div>
-        <Footer />
+  <div class="w-4/6 h-full mx-auto md:w-full">
+    <NubBer />
+    <!-- Section Hero  -->
+    <div
+      class="
+        container
+        justify-center
+        grid-cols-3
+        mx-auto
+        mt-8
+        md:mt-0 md:space-x-10 md:grid md:py-40
+      "
+    >
+      <div class="grid items-center justify-center order-1 col-span-1">
+        <img
+          class="h-40 rounded-full lg:h-80 md:h-64"
+          src="~assets/img/profile.jpg"
+          alt="profile-image"
+        />
+      </div>
+      <div class="col-span-2 mx-auto mt-8 md:mt-0 lg:justify-end">
+        <h1 class="mb-6 text-2xl font-bold text-center text-gray-800 md:text-4xl md:text-left">
+          HIROYUKI's Portfolio
+        </h1>
+        <p class="mb-8 text-lg text-center text-gray-800 md:text-xl md:text-left">
+          フロントエンドエンジニアとしてシステム開発業務を行っています。<br />使用言語は、Tailwind
+          CSS｜JavaScript｜Vue.js｜Vuex｜Nuxt.js｜Laravelです。<br />このサイトは、Tailwind
+          CSS*Nuxt.js*Typescriptで作成しています。<br />HP制作も承っております。
+        </p>
+        <a
+          target="_blank"
+          href="https://form.run/@hiroyuki-akimoto-hp-1615021598"
+          class="px-6 py-3 mx-auto text-2xl font-semibold bg-red-400 rounded md:mx-0 text-red-50"
+          >contact me</a
+        >
+      </div>
     </div>
+    <Footer />
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 
 export default Vue.extend({
-  transition: 'slide-bottom'
-})
+  transition: 'slide-bottom',
+});
 </script>
 
 <style>
@@ -82,5 +106,4 @@ export default Vue.extend({
     transform: scale(0);
   }
 }
-
 </style>
