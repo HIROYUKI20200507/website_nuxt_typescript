@@ -10,7 +10,7 @@
         >
           <img class="object-cover w-max max-h-52" :src="fetchImages[index]" />
           <div class="p-5">
-            <small class="text-xs text-black truncate bg-white md:text-sm">{{
+            <small class="text-xs text-black truncate bg-white md:text-sm">更新日：{{
               article.pubDate.substring(0, 10)
             }}</small>
             <h1 class="py-2 text-sm font-bold text-blue-800 truncate md:text-2xl">
@@ -40,6 +40,22 @@ const picabayUrl = 'https://pixabay.com/api/?key=';
 const pixabayKey = '23173794-d75fd9b1a1194fc6676d7bbf3';
 
 export default {
+  head() {
+    return {
+      meta: [
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '秋本裕之のweb site｜blog記事です。主にQiitaで発信を行っています。',
+      },
+      { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/blog' },
+      { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Blog" },
+      { hid: 'og:type', property: 'og:type', content: 'blog' },
+
+      ]
+    }
+  },
   transition: 'slide-bottom',
   data() {
     return {

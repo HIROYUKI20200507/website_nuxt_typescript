@@ -15,18 +15,7 @@
         <div class="flex-row pt-16 md:flex">
           <!-- Basic Card -->
           <div
-            class="
-              p-6
-              pr-16
-              mx-auto
-              text-center
-              bg-white
-              shadow-xl
-              md:mx-0
-              w-80
-              md:w-96
-              rounded-3xl
-            "
+            class="p-6 pr-16 mx-auto text-center bg-white shadow-xl  md:mx-0 w-80 md:w-96 rounded-3xl"
           >
             <h1 class="text-2xl font-semibold text-black">ベーシック</h1>
             <p class="pt-2 tracking-wide">
@@ -59,19 +48,7 @@
           </div>
           <!-- StartUp Card -->
           <div
-            class="
-              p-6
-              mx-auto
-              mt-10
-              text-center text-white
-              transform
-              bg-gray-900
-              border-4 border-white
-              shadow-xl
-              w-80
-              rounded-3xl
-              md:scale-125
-            "
+            class="p-6 mx-auto mt-10 text-center text-white transform bg-gray-900 border-4 border-white shadow-xl  w-80 rounded-3xl md:scale-125"
           >
             <h1 class="text-2xl font-semibold text-white">Startup</h1>
             <p class="pt-2 tracking-wide">
@@ -111,19 +88,7 @@
           </div>
           <!-- Enterprise Card -->
           <div
-            class="
-              p-6
-              mx-auto
-              mt-10
-              text-center
-              bg-white
-              shadow-xl
-              md:mt-0
-              w-80
-              md:w-96
-              rounded-3xl
-              md:pl-16
-            "
+            class="p-6 mx-auto mt-10 text-center bg-white shadow-xl  md:mt-0 w-80 md:w-96 rounded-3xl md:pl-16"
           >
             <h1 class="text-2xl font-semibold text-black">フルパッケージ</h1>
             <p class="pt-2 tracking-wide">
@@ -162,6 +127,21 @@
 
 <script>
 export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            '秋本裕之のweb site｜HP制作における参考価格表です。金額については参考価格なので、ご相談いただけると幸いです',
+        },
+        { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/price' },
+        { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Price" },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+      ]
+    }
+  },
   transition: 'slide-bottom',
 };
 </script>

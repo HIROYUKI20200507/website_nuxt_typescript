@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "HIROYUKI's Portfolio",
+    title: "Hiroyuki Akimoto[秋本 裕之] | Portfolio",
     htmlAttrs: {
       lang: 'ja',
     },
@@ -18,7 +18,7 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: "Hiroyuki Akimoto[秋本 裕之] | Portfolio" },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com' },
-      { hid: 'og:title', property: 'og:title', content: "HIROYUKI's Portfolio" },
+      { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Portfolio" },
       {
         hid: 'og:description',
         property: 'og:description',
