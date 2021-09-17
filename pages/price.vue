@@ -127,21 +127,6 @@
 
 <script>
 export default {
-  head() {
-    return {
-      meta: [
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content:
-            '秋本裕之のweb site｜HP制作における参考価格表です。金額については参考価格なので、ご相談いただけると幸いです',
-        },
-        { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/price' },
-        { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Price" },
-        { hid: 'og:type', property: 'og:type', content: 'article' },
-      ]
-    }
-  },
   transition: 'slide-bottom',
 };
 </script>
