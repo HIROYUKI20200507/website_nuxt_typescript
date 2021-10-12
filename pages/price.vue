@@ -20,8 +20,7 @@
             <h1 class="text-2xl font-semibold text-black">ベーシック</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">39,800</span>
-              <span class="font-medium text-gray-400">-</span>
+              <span class="text-3xl font-semibold">49,800~</span>
             </p>
             <hr class="mt-4 border-1" />
             <div class="pt-6">
@@ -53,8 +52,7 @@
             <h1 class="text-2xl font-semibold text-white">Startup</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">59,800</span>
-              <span class="font-medium text-gray-400">-</span>
+              <span class="text-3xl font-semibold">89,800~</span>
             </p>
             <hr class="mt-4 border-gray-600 border-1" />
             <div class="pt-6">
@@ -93,8 +91,7 @@
             <h1 class="text-2xl font-semibold text-black">フルパッケージ</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">79,800</span>
-              <span class="font-medium text-gray-400">-</span>
+              <span class="text-3xl font-semibold">159,800~</span>
             </p>
             <hr class="mt-4 border-1" />
             <div class="pt-6">
