@@ -20,8 +20,7 @@
             <h1 class="text-2xl font-semibold text-black">ベーシック</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">39,800</span>
-              <span class="font-medium text-gray-400">-</span>
+              <span class="text-3xl font-semibold">2,500/h</span>
             </p>
             <hr class="mt-4 border-1" />
             <div class="pt-6">
@@ -53,8 +52,7 @@
             <h1 class="text-2xl font-semibold text-white">Startup</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">59,800</span>
-              <span class="font-medium text-gray-400">-</span>
+              <span class="text-3xl font-semibold">3,000/h</span>
             </p>
             <hr class="mt-4 border-gray-600 border-1" />
             <div class="pt-6">
@@ -93,7 +91,7 @@
             <h1 class="text-2xl font-semibold text-black">フルパッケージ</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
-              <span class="text-3xl font-semibold">79,800</span>
+              <span class="text-3xl font-semibold">3,500/h</span>
               <span class="font-medium text-gray-400">-</span>
             </p>
             <hr class="mt-4 border-1" />
@@ -137,10 +135,10 @@ export default {
             '秋本裕之のweb site｜HP制作における参考価格表です。金額については参考価格なので、ご相談いただけると幸いです',
         },
         { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com/price' },
-        { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Price" },
+        { hid: 'og:title', property: 'og:title', content: 'Hiroyuki Akimoto[秋本 裕之] | Price' },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-      ]
-    }
+      ],
+    };
   },
   transition: 'slide-bottom',
 };

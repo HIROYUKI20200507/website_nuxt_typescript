@@ -3,14 +3,7 @@
     <NubBer />
     <!-- Section Hero  -->
     <div
-      class="
-        container
-        justify-center
-        grid-cols-3
-        mx-auto
-        mt-8
-        md:mt-0 md:space-x-10 md:grid md:py-40
-      "
+      class="container justify-center grid-cols-3 mx-auto mt-8  md:mt-0 md:space-x-10 md:grid md:py-40"
     >
       <div class="grid items-center justify-center order-1 col-span-1">
         <img

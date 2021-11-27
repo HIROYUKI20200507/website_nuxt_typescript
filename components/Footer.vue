@@ -1,7 +1,7 @@
 <template>
-  <footer class="bg-white lg:fixed sticky bottom-0 inset-x-0 h-44">
+  <footer class="sticky inset-x-0 bottom-0 bg-white lg:fixed h-44">
     <div
-      class="flex pt-5 mt-10 md:mt-15 px-10 items-center justify-between md:justify-around max-md"
+      class="flex items-center justify-between px-10 pt-5 mt-10 md:mt-15 md:justify-around max-md"
     >
       <span>
         <a target="_blank" href="https://twitter.com/Akimon6134"
@@ -28,7 +28,7 @@
         /></a>
       </span>
       <span>
-        <a target="_blank" href="https://github.com/HIROYUKI20200507"
+        <a target="_blank" href="https://qiita.com/hiroyuki_0507"
           ><img
             class="mx-1.5 sm:mx-6 w-6 md:w-10 h-6 md:h-10"
             src="~assets/img/icon/favicon.png"
@@ -36,7 +36,7 @@
         /></a>
       </span>
     </div>
-    <p class="text-center my-8 text-lg">Copyright ©2020 All rights reserved</p>
+    <p class="my-8 text-lg text-center">Copyright ©2020 All rights reserved</p>
   </footer>
 </template>
 
