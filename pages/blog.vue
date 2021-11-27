@@ -40,6 +40,7 @@ const picabayUrl = 'https://pixabay.com/api/?key=';
 const pixabayKey = '23173794-d75fd9b1a1194fc6676d7bbf3';
 
 export default {
+<<<<<<< HEAD
   head() {
     return {
       meta: [
@@ -54,6 +55,8 @@ export default {
       ],
     };
   },
+=======
+>>>>>>> b6ab366170786b09c85407450dc2aa98bd095f6b
   transition: 'slide-bottom',
   data() {
     return {

@@ -20,7 +20,11 @@
             <h1 class="text-2xl font-semibold text-black">ベーシック</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
+<<<<<<< HEAD
               <span class="text-3xl font-semibold">2,500/h</span>
+=======
+              <span class="text-3xl font-semibold">49,800~</span>
+>>>>>>> b6ab366170786b09c85407450dc2aa98bd095f6b
             </p>
             <hr class="mt-4 border-1" />
             <div class="pt-6">
@@ -52,7 +56,11 @@
             <h1 class="text-2xl font-semibold text-white">Startup</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
+<<<<<<< HEAD
               <span class="text-3xl font-semibold">3,000/h</span>
+=======
+              <span class="text-3xl font-semibold">89,800~</span>
+>>>>>>> b6ab366170786b09c85407450dc2aa98bd095f6b
             </p>
             <hr class="mt-4 border-gray-600 border-1" />
             <div class="pt-6">
@@ -91,8 +99,12 @@
             <h1 class="text-2xl font-semibold text-black">フルパッケージ</h1>
             <p class="pt-2 tracking-wide">
               <span class="text-gray-400 align-top">¥ </span>
+<<<<<<< HEAD
               <span class="text-3xl font-semibold">3,500/h</span>
               <span class="font-medium text-gray-400">-</span>
+=======
+              <span class="text-3xl font-semibold">159,800~</span>
+>>>>>>> b6ab366170786b09c85407450dc2aa98bd095f6b
             </p>
             <hr class="mt-4 border-1" />
             <div class="pt-6">
@@ -125,6 +137,7 @@
 
 <script>
 export default {
+<<<<<<< HEAD
   head() {
     return {
       meta: [
@@ -140,6 +153,8 @@ export default {
       ],
     };
   },
+=======
+>>>>>>> b6ab366170786b09c85407450dc2aa98bd095f6b
   transition: 'slide-bottom',
 };
 </script>
