@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <header class="bg-white dark:bg-gray-800">
+  <header class="sticky top-0 z-50 bg-white dark:bg-gray-800">
     <nav class="bg-white dark:bg-gray-800">
       <div class="container p-6 mx-auto">
         <div

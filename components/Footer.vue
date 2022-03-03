@@ -36,7 +36,7 @@
         /></a>
       </span>
     </div>
-    <p class="my-8 text-lg text-center">Copyright ©2020 All rights reserved</p>
+    <p class="my-8 text-lg text-center">Copyright ©2022 All rights reserved</p>
   </footer>
 </template>
 

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Hiroyuki Akimoto[秋本 裕之] | Portfolio",
+    title: 'Hiroyuki Akimoto[秋本 裕之] | Portfolio',
     htmlAttrs: {
       lang: 'ja',
     },
@@ -15,10 +15,14 @@ export default {
           '秋本裕之のweb site｜元八百屋。現在フロントエンドエンジニアとして働く傍ら、HPやLPのデザイン〜制作・保守まで受けています。趣味でフロントも教えていたりします。',
       },
 
-      { hid: 'og:site_name', property: 'og:site_name', content: "Hiroyuki Akimoto[秋本 裕之] | Portfolio" },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Hiroyuki Akimoto[秋本 裕之] | Portfolio',
+      },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://hiroyukihp.com' },
-      { hid: 'og:title', property: 'og:title', content: "Hiroyuki Akimoto[秋本 裕之] | Portfolio" },
+      { hid: 'og:title', property: 'og:title', content: 'Hiroyuki Akimoto[秋本 裕之] | Portfolio' },
       {
         hid: 'og:description',
         property: 'og:description',
@@ -61,18 +65,20 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-  ],
+  buildModules: ['@nuxt/postcss8'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
+  },
 
   generate: {
     dir: 'public',

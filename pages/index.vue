@@ -3,7 +3,7 @@
     <NubBer />
     <!-- Section Hero  -->
     <div
-      class="container justify-center grid-cols-3 mx-auto mt-8  md:mt-0 md:space-x-10 md:grid md:py-40"
+      class="container justify-center grid-cols-3 mx-auto mt-8 md:mt-0 md:space-x-10 md:grid md:py-40"
     >
       <div class="grid items-center justify-center order-1 col-span-1">
         <img
@@ -19,7 +19,7 @@
         <p class="mb-8 text-lg text-center text-gray-800 md:text-xl md:text-left">
           フロントエンドエンジニアとしてシステム開発業務を行っています。<br />使用言語は、Tailwind
           CSS｜JavaScript｜Vue.js｜Vuex｜Nuxt.js｜Laravelです。<br />このサイトは、Tailwind
-          CSS*Nuxt.js*Typescriptで作成しています。<br />HP制作も承っております。
+          CSS*Nuxt.jsで作成しています。<br />HP制作も承っております。
         </p>
         <a
           target="_blank"
