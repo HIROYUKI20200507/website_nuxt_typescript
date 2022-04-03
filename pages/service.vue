@@ -72,7 +72,7 @@ export default {
         {
           id: '5',
           title: 'html + css + JS + Vue.js',
-          item: '個人でコーチングをしている方の紹介サイトを作成しました。',
+          item: 'パーソナルボディメイクサロンを経営しているウェブサイトを作成しました。',
           image: require('@/assets/img/service-sub-img6.png'),
           linkUrl: 'https://ryoscoach.com/',
         },
