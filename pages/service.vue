@@ -83,6 +83,20 @@ export default {
           image: require('@/assets/img/service-sub-img7.png'),
           linkUrl: 'https://chatapp-b6126.web.app/',
         },
+        {
+          id: '7',
+          title: 'Github actions + vue3 + vuex + axios + Firebase',
+          item: '画像をAPIでデータとしてリクエストを送ることができるアプリを構築しました。',
+          image: require('@/assets/img/service-sub-img8.png'),
+          linkUrl: 'https://vue-work-sample.web.app/',
+        },
+        {
+          id: '8',
+          title: 'vue3 + vuex + axios + Firebase',
+          item: '都道府県別の総人口推移グラフを表示するSPA(Single Page Application)を構築しました。',
+          image: require('@/assets/img/service-sub-img9.png'),
+          linkUrl: 'https://yumemivuechart.web.app/',
+        },
       ],
     };
   },

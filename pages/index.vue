@@ -17,9 +17,10 @@
           HIROYUKI's Portfolio
         </h1>
         <p class="mb-8 text-lg text-center text-gray-800 md:text-xl md:text-left">
-          フロントエンドエンジニアとしてシステム開発業務を行っています。<br />使用言語は、Tailwind
-          CSS｜JavaScript｜Vue.js｜Vuex｜Nuxt.js｜Laravelです。<br />このサイトは、Tailwind
-          CSS*Nuxt.jsで作成しています。<br />HP制作も承っております。
+          フロントエンドエンジニアとしてシステム開発業務を行っています。<br />
+          JavaScriptのVueが好きです。<br />
+          このサイトは、TailwindCSS*Nuxt.jsで作成しています。<br />
+          HP制作も承っております。
         </p>
         <a
           target="_blank"
