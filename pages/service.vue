@@ -74,7 +74,7 @@ export default {
           title: 'html + css + JS + Vue.js',
           item: 'パーソナルボディメイクサロンを経営しているウェブサイトを作成しました。',
           image: require('@/assets/img/service-sub-img6.png'),
-          linkUrl: 'https://ryoscoach.com/',
+          linkUrl: 'https://collect-pbs.com/',
         },
         {
           id: '6',
