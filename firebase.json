@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "hiroyukihp",
     "public": "public",
     "ignore": [
       "firebase.json",
