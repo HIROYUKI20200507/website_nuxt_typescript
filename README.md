@@ -45,7 +45,7 @@ pnpm dlx firebase-tools deploy --only hosting
 app/
   app.vue                # Root component
   layouts/default.vue
-  pages/                 # index / service / price / blog
+  pages/                 # index / service / blog
   components/            # AppHeader, AppFooter, SectionHero, WorksGrid, WorkCard
   plugins/reveal.client.ts  # v-reveal scroll-in directive
   data/works.ts          # Works content (typed)

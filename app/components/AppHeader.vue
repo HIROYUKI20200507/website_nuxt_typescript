@@ -4,7 +4,6 @@ import { onClickOutside, useScroll } from '@vueuse/core';
 const links = [
   { to: '/', label: 'Home' },
   { to: '/service', label: 'Works' },
-  { to: '/price', label: 'Price' },
   { to: '/blog', label: 'Blog' },
 ];
 
