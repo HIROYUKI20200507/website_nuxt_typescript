@@ -1,5 +1,7 @@
-import img2 from '~/assets/img/service-sub-img2.png';
 import img3 from '~/assets/img/service-sub-img3.png';
+import workMitsukaku from '~/assets/img/work-mitsukaku.png';
+import workCampApp from '~/assets/img/work-camp-app.png';
+import workPortfolio from '~/assets/img/work-portfolio.png';
 import img4 from '~/assets/img/service-sub-img4.png';
 import img5 from '~/assets/img/service-sub-img5.png';
 import img6 from '~/assets/img/service-sub-img6.png';
@@ -18,12 +20,30 @@ export type Work = {
 
 export const works: Work[] = [
   {
+    id: 'mitsukaku',
+    title: 'ミツカク（見積もりくん）',
+    description:
+      '見積書・請求書・納品書をブラウザ上で簡単に作成・管理できる SaaS。テンプレート管理、PDF 出力、取引先管理に対応。',
+    stack: ['Nuxt', 'TypeScript', 'Firebase'],
+    image: workMitsukaku,
+    href: 'https://quotation-kun.com/',
+  },
+  {
+    id: 'camp-app',
+    title: 'キャンプ条件検索アプリ',
+    description:
+      '希望する条件（エリア・設備・料金など）からキャンプ場を絞り込み検索できる Web アプリ。お気に入り機能つき。',
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    image: workCampApp,
+    href: 'https://camp-app-v2.vercel.app/',
+  },
+  {
     id: '1',
     title: 'Portfolio Website',
     description:
       'いま閲覧している本ポートフォリオサイト。フロントエンドのみで構成され、SSG でデプロイされています。',
     stack: ['Nuxt 4', 'Vue 3', 'TailwindCSS'],
-    image: img2,
+    image: workPortfolio,
     href: '/',
   },
   {

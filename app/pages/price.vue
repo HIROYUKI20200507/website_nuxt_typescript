@@ -62,10 +62,6 @@ const plans: Plan[] = [
           >
             Flexible <span class="text-accent-600">plans.</span>
           </h1>
-          <p class="mt-6 text-base leading-relaxed text-zinc-600 md:text-lg">
-            その他料金プラン・受託開発も可能ですので、お気軽にご相談ください。
-            時間単価は参考価格です。
-          </p>
         </div>
       </div>
     </header>
