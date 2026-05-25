@@ -17,26 +17,26 @@ Hiroyuki Akimoto のポートフォリオサイト。
 cp .env.example .env
 
 # 依存インストール
-npm install
+pnpm install
 
 # 開発サーバ (http://localhost:3000)
-npm run dev
+pnpm dev
 
 # 型チェック
-npm run typecheck
+pnpm typecheck
 
 # 静的ファイル生成 (出力先: public/)
-npm run generate
+pnpm generate
 
 # 生成後プレビュー
-npm run preview
+pnpm preview
 ```
 
 ## Deploy (Firebase Hosting)
 
 ```bash
-npm run generate
-npx firebase deploy --only hosting
+pnpm generate
+pnpm dlx firebase-tools deploy --only hosting
 ```
 
 ## Project structure
